@@ -1,0 +1,16 @@
+{
+  "name": "cloudrun-static",
+  "version": "1.0.0",
+  "description": "An example nodejs app for serving static content through gcp cloud run",
+  "main": "index.js",
+  "repository": "git@github.com:eveenendaal/cloudrun-static.git",
+  "author": "Eric Veenendaal <eric@veenendaal.co>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
